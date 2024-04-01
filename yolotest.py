@@ -5,7 +5,7 @@ import torch
 model = torch.hub.load('ultralytics/yolov5', 'yolov5m', pretrained=True)
 
 # 動画を読み込む
-cap = cv2.VideoCapture('aVLtuCAKJx7cFLqF.mp4')
+cap = cv2.VideoCapture('MOV_1503.mp4')
 
 k = 0
 while cap.isOpened():
